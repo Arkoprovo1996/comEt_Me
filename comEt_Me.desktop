@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.1
+Name=comEt_Me
+Comment=A Simple Terminal Space Ship driving game
+Icon=$HOME/.local/share/icons/comEt_Me.png
+Exec=gnome-terminal -x Codes/Game/comEt_Me
+Terminal=true
+Categories=Game;
+Type=Application
