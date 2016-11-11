@@ -16,4 +16,3 @@ if [ ! -d "~/.local/share/icons" ]; then
 fi
 cp comEt_Me.desktop ~/.local/share/applications/
 cp comEt_Me.png ~/.local/share/icons/
-as
