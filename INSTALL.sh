@@ -1,4 +1,7 @@
-#!/bin/bash
+ #!/bin/bash
+
+echo [Desktop Entry]$'\n'Version=0.1$'\n'Name=comEt_Me$'\n'Comment=A Simple Terminal Space Ship driving game$'\n'Exec=gnome-terminal -x $HOME/.local/bin/comEt_Me/comEt_Me$'\n'Icon=$HOME/.local/share/icons/comEt_Me.png$'\n'Terminal=true$'\n'Categories=Game\;$'\n'Type=Application > comEt_Me.desktop
+
 if [ ! -d ~/.local/bin/comEt_Me/ ]; then
   mkdir ~/.local/bin
 fi
